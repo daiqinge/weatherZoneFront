@@ -18,7 +18,6 @@ export interface TableParameters {
   title: string;
   apiUrl: string;
   entityName: string;
-  filterProps: FilterProps;
   isDashBoard?: boolean;
 }
 
