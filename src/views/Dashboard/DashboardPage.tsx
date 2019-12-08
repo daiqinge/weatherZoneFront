@@ -41,10 +41,6 @@ export class DashboardPage extends EntityList {
     return {
       apiUrl:  `http://localhost:8092//weatherController/getList`,
       title: 'Message List',
-      filterProps: {
-        searchHolder: 'label',
-        filterEnable: true,
-      },
       isDashBoard: true,
       entityName: 'dashboard' 
     };
